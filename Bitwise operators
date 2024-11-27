@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main() {
+    int a = 4, b= 8;
+
+   printf("Bitwise Operataors\n");
+    printf("%d & %d = %d\n", a, b, a&b);
+    printf("%d | %d = %d\n", a, b, a|b);
+    printf("Bitwise XOR %d ^ %d = %d\n", a, b, a^b);
+    printf("Left Shift %d << 2 = %d\n", a, a<<2);
+    printf("Right Shift %d >> 2 = %d\n", a, a>>2);
+
+ (a < b) ? printf("\na is greater than b"): printf("\nb is less than a");
+
+    return 0;
+}
+
+***OUTPUT***
+
+Bitwise Operataors
+4 & 8 = 0
+4 | 8 = 12
+Bitwise XOR 4 ^ 8 = 12
+Left Shift 4 << 2 = 16
+Right Shift 4 >> 2 = 1
+
+a is greater than b
+
+=== Code Execution Successful ===
